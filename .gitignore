@@ -5,5 +5,6 @@
 bin/*
 .bundle/*
 
+Berksfile.lock
 .kitchen/
 .kitchen.local.yml

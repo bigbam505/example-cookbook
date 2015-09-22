@@ -1,0 +1,15 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: centos-7.0
+
+suites:
+  - name: default
+    run_list:
+      - recipe[example-cookbook::default]
+    attributes:

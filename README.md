@@ -1,2 +1,3 @@
 # example-cookbook
-Example cookbook
+
+An example chef cookbook for training about chef
