@@ -1,0 +1,2 @@
+# example-cookbook
+Example cookbook
