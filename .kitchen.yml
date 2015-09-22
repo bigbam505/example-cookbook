@@ -4,6 +4,8 @@ driver:
 
 provisioner:
   name: chef_zero
+  client_rb:
+    audit_mode: :enabled
 
 platforms:
   - name: centos-7.0
@@ -12,4 +14,5 @@ suites:
   - name: default
     run_list:
       - recipe[example-cookbook::default]
+      - recipe[example-cookbook::_audit_default]
     attributes:
