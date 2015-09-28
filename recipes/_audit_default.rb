@@ -11,7 +11,7 @@ control_group 'example-cookbook::default' do
   end
 
   control 'files' do
-    it 'the new file should exist' do
+    it 'the new file should exist' do # ~FC005
       expect(file('/verify/newfile')).to be_file
     end
 
