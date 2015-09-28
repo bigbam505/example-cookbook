@@ -1,4 +1,5 @@
 # example-cookbook
+![Build Status](https://travis-ci.org/bigbam505/example-cookbook.svg?branch=master)
 
 An example chef cookbook for training people on the basics of chef.
 
