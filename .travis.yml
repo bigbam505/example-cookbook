@@ -1,0 +1,10 @@
+sudo: false
+cache: bundler
+language: ruby
+services:
+  - docker
+bundler_args: --without kitchen_vagrant
+rvm:
+  - 2.2
+script:
+  - bundle exec rake travis
